@@ -28,6 +28,9 @@ const response = await ai.models.generateContent({
     topK: 1,
     topP: 0,
     seed: 42,
+    thinkingConfig: {
+      thinkingBudget: 128,
+    },
   },
 });
 
