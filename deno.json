@@ -1,0 +1,6 @@
+{
+  "imports": {
+    "@google/genai": "npm:@google/genai@^1.5.1",
+    "@std/dotenv": "jsr:@std/dotenv@^0.225.5"
+  }
+}
